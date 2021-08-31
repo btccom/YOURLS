@@ -257,7 +257,7 @@ function yourls_redirect_shorturl($url, $keyword) {
         header( "X-Robots-Tag: noindex", true );
     }
 
-    yourls_redirect( $url, 301 );
+    yourls_redirect( $url, 302 );
 }
 
 /**
